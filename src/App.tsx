@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Tools from './pages/Tools'
 import CsvCleaner from './pages/CsvCleaner'
 import About from './pages/About'
+import CsvValidator from './pages/CsvValidator'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/tools" element={<Tools />} />
           <Route path="/tools/csv-cleaner" element={<CsvCleaner />} />
+          <Route path="/tools/csv-validator" element={<CsvValidator />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </div>
